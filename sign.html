@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<head>
+        <title>SIGNUP_PAGE</title>
+<style>
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{     
+     background-image: linear-gradient(#dcdde1, rgb(92, 84, 84));
+}
+.griding
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    padding-top: 4.5vh;
+    padding-left:10vh;
+    padding-right: 10vh;
+    padding-bottom: 5.5vh;
+   
+}
+img
+{
+    width: 100vh;
+    height: 100vh;
+}
+h1
+{
+    background-image:linear-gradient(rgba(17, 45, 50, 0.9),rgb(37, 78, 88,0.5)), url(../teachers4.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.main-loop
+{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap; 
+    height: 90vh;
+    align-items: center;
+    padding-right: 20vh;
+ 
+}
+.form-container
+{
+     background-color: #dcdde1;
+     padding-top: 2em;
+     padding-left: 8em;
+     border-radius:0em;
+     box-shadow:  rgb(137, 139, 139) 25px 25px 20px;
+    /* position: absolute;*/
+     align-items: center;
+     justify-content: center;
+     width:600px;
+}
+.ins
+{
+    border-radius: 1em ;
+    padding: 1em;
+    font-size:1em;
+    width:400px;
+    border:none;
+    outline:none;
+}
+label
+{
+    font-size:1em;
+    font-weight: bolder;
+}
+.log-btn
+{
+    border: none;
+    outline: none;
+    border-radius:1em;
+    width:270px;
+    background-color:rgb(37, 68, 148,0.7);
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: 0.5em;
+    padding:1em;
+    cursor: pointer;
+    justify-content: center;
+
+}
+select
+{
+    border-radius: 1em ;
+    padding: 1em;
+    font-size:1em;
+    width:435px;
+    border:none;
+    outline:none;
+}
+.log-sign
+{
+    border: 2px solid white;
+    outline: none;
+    border-radius:1em;
+    width:200px;
+    background-color: transparent;
+    color:whitesmoke;
+    font-size:  1em;
+    font-weight: 12px;
+    padding:5.5px;
+    cursor: pointer;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.forsign
+{
+    padding-left: 6vh;
+    align-items: center;
+    padding-top: 3vh;
+}
+section
+{
+    padding-top: 5vh;
+}
+.loophole
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eee;
+    width: 300px;
+    padding: 50px;
+    margin: 17px;
+
+}
+option
+{
+    background-color: rgb(175, 170, 170);
+    color:black;
+    padding: 25px;
+}
+.container
+{
+    padding-top: 14vh;
+}
+.submit
+{
+    border:none;
+    outline:none;
+    border-radius:3em;
+    width:270px;
+    background-image:  linear-gradient( #112D32,#254E58,#80A6AD);
+    color:whitesmoke;
+    font-size: 1em;
+    font-weight:bold;
+    cursor: pointer;
+    padding:1em;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <div class="griding">
+        <div class="marking1">
+            <h1>
+          <div class="container">
+          <div class="loophole">
+                <p style="font-size: 2em;color:#eee; text-align: center; padding-top: 0.4em; letter-spacing: 4px; text-decoration:underline #eee;">SIGN UP</p>
+                <p style="font-size: 20px; color: rgb(217, 217, 236); text-align: center; ;">Get the best among the most</p>
+                <p style="font-size: 20px; color: rgb(217, 217, 236); text-align: center;">You <b style="color:rgb(0, 0, 0);">Teach</b> We<b style="color:rgb(0, 0, 0);"> Support</b></p>
+            <br>
+            <section>
+                <p style="font-size: 20px; color: white; text-align: center;">Already have a account?<b> <a href="login.html">LOGIN</a></b></p>
+            </section> 
+          </div>   
+          </div>        
+     </h1>
+     
+          </div>
+        <div style="background-color:#eee;" >  
+            <div class="main-loop">
+                <div class="form-container">
+                    <form action="form.html">
+                    <label for="name">
+                        Name:
+                    </label>
+            <br><br>
+                    <input type="text" maxlength="30" class="ins"placeholder="John Doe">
+            <br> <br>    
+                    <label for="email">
+                        Email:
+                    </label>
+            <br><br>
+                    <input type="email" class="ins" placeholder="abc@email.com">
+            <br><br>
+            <label for="password">
+                      Password:
+            </label>
+            <br><br>
+            <input type="password" class="ins" placeholder="*******">
+            <br> <br>
+            <label for="Education">
+                    Education:
+        </label>
+        <br><br> 
+        <select name="Education" id="Education">
+            <option value="Graduate">Graduate</option>
+            <option value="UnderGraduate">UnderGraduate</option>
+            <option value="Masters">Masters</option>
+            <option value="Phd">PHD</option>
+          </select>
+          <br><br>
+
+        <label for="Intrest">
+                    Intrest:
+        </label>
+        <br><br> 
+       <input type="text" class="ins" value="Intrest" placeholder="Intrest">
+        <br> <br>
+
+            <button class="submit">SUBMIT</button>
+            <br><br>
+            
+     </form>
+     </div>
+            
+     </div>
+    </div>
+    </div>
+</body>
+</html>

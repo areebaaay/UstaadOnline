@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic2.jpg);
+    background-size: cover;
+
+}
+
+.contact-form{
+    width: 70%;
+    max-width:  400px;
+    background: #f1f1f1;
+    color: rgb(8, 8, 8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%,-50%);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px #3b3b3b;
+    font-family: "Montserrat" ,sans-serif;
+
+}
+
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+
+}
+
+.txtb{
+    border-radius: 1px  rgb(56, 55, 55);
+    margin: 8px 0;
+    padding: 12px 8px;
+    border-radius: 8px;
+
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: rgb(7, 0, 0);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txtb input,.txtb textarea{
+    
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: block;
+    background: #422b2b;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+.navigation{
+	
+    background: darkslategrey;
+    
+    color: white;
+        
+    }
+    .navigation ul{
+        display: grid;
+        grid-template-columns: repeat(7,1fr) ;
+        grid-gap: 7vh;
+        text-align: center;
+        height: 5vh;
+    }
+    .navigation ul li {
+        list-style: none;
+        
+    
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        color: white;
+    
+    }
